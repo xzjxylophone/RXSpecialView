@@ -12,6 +12,7 @@
 		C9F07C441DB8D90500007C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F07C431DB8D90500007C0C /* Assets.xcassets */; };
 		C9F07C511DB8D98200007C0C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F07C4F1DB8D98200007C0C /* MainViewController.m */; };
 		C9F07C521DB8D98200007C0C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F07C501DB8D98200007C0C /* MainViewController.xib */; };
+		C9F07C571DB8DA9A00007C0C /* RXHSpecialLineTextLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F07C561DB8DA9A00007C0C /* RXHSpecialLineTextLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		C9F07C4E1DB8D98200007C0C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C9F07C4F1DB8D98200007C0C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C9F07C501DB8D98200007C0C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C9F07C541DB8DA5C00007C0C /* RXSpecialViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXSpecialViewHeader.h; sourceTree = "<group>"; };
+		C9F07C551DB8DA9A00007C0C /* RXHSpecialLineTextLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXHSpecialLineTextLineView.h; sourceTree = "<group>"; };
+		C9F07C561DB8DA9A00007C0C /* RXHSpecialLineTextLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXHSpecialLineTextLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,9 @@
 		C9F07C531DB8D9A700007C0C /* RXSpecialView */ = {
 			isa = PBXGroup;
 			children = (
+				C9F07C541DB8DA5C00007C0C /* RXSpecialViewHeader.h */,
+				C9F07C551DB8DA9A00007C0C /* RXHSpecialLineTextLineView.h */,
+				C9F07C561DB8DA9A00007C0C /* RXHSpecialLineTextLineView.m */,
 			);
 			name = RXSpecialView;
 			path = ../RXSpecialView;
@@ -157,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F07C3C1DB8D90500007C0C /* AppDelegate.m in Sources */,
+				C9F07C571DB8DA9A00007C0C /* RXHSpecialLineTextLineView.m in Sources */,
 				C9F07C511DB8D98200007C0C /* MainViewController.m in Sources */,
 				C9F07C391DB8D90500007C0C /* main.m in Sources */,
 			);
