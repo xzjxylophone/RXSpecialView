@@ -11,26 +11,21 @@
 @implementation RXHSpecialLineTextLineView
 
 
-- (id)init
+- (void)initialization
 {
-    if (self = [super init]) {
-        
-        
-        self.lineHeight = 0.5;
-        self.lineColor = [UIColor grayColor];
-        
-        self.leftLineView = [UIView new];
-        self.label = [UILabel new];
-        self.rightLineView = [UILabel new];
-        
-        
-        [self addSubview:self.leftLineView];
-        [self addSubview:self.label];
-        [self addSubview:self.rightLineView];
-        
-        
-    }
-    return self;
+    
+    
+    self.lineHeight = 0.5;
+    self.lineColor = [UIColor grayColor];
+    
+    self.leftLineView = [UIView new];
+    self.label = [UILabel new];
+    self.rightLineView = [UILabel new];
+    
+    
+    [self addSubview:self.leftLineView];
+    [self addSubview:self.label];
+    [self addSubview:self.rightLineView];
 }
 
 

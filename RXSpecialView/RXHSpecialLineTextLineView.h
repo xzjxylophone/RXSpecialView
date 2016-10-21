@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RXSpecialBaseView.h"
 
 // 左边线/中间文字/右边线
-@interface RXHSpecialLineTextLineView : UIView
+@interface RXHSpecialLineTextLineView : RXSpecialBaseView
 
 
 @property (nonatomic, assign) CGFloat xPadding;         // 线距离边框的距离
